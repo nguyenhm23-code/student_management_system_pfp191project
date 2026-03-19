@@ -1,0 +1,12 @@
+[
+    {
+        "student_id": "QE210097",
+        "name": "Nguyen",
+        "birth_year": 2007,
+        "major": "Ai",
+        "scores": {
+            "Toan": 10.0,
+            "skibidi": 12.0
+        }
+    }
+]
