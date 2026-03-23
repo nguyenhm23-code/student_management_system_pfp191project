@@ -53,6 +53,8 @@ The system covers the following core functional areas:
 The system is built with high cohesion, primarily utilizing two main classes:
 * `Student`: The fundamental data model representing an individual student. It stores the `student_id`, `name`, `birth_year`, `major`, and a dictionary of `scores`.
 * `SystemManager`: The core controller class responsible for managing the student list and executing business logic (searching, sorting, file synchronization).
+* <img width="386" height="646" alt="image" src="https://github.com/user-attachments/assets/a336c64d-c502-4226-a9fe-a9bf5f4c993d" />
+
 
 ### 2.2 Modular Structure
 To adhere to best practices, the application architecture is separated into distinct packages:
