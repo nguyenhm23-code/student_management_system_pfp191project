@@ -54,6 +54,7 @@ The system is built with high cohesion, primarily utilizing two main classes:
 * `Student`: The fundamental data model representing an individual student. It stores the `student_id`, `name`, `birth_year`, `major`, and a dictionary of `scores`.
 * `SystemManager`: The core controller class responsible for managing the student list and executing business logic (searching, sorting, file synchronization).
 * <img width="386" height="646" alt="image" src="https://github.com/user-attachments/assets/a336c64d-c502-4226-a9fe-a9bf5f4c993d" />
+<img width="1055" height="853" alt="image" src="https://github.com/user-attachments/assets/efebf582-92e7-4b1b-bb2a-0f597d550fb0" />
 
 
 ### 2.2 Modular Structure
