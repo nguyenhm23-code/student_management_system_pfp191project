@@ -17,7 +17,14 @@ class SystemManager:
     def add_student(self, student: Student):
         self.students.append(student)
         print("Thêm sinh viên thành công.")
-
+    def delete_student(self, student_id: str) -> bool:
+        """Xóa sinh viên theo ID và lưu lại vào file ngay lập tức."""
+        student = self.find_student_by_id(student_id)
+        if student:
+            self.students.remove(student) 
+            self.save_students()          
+            return True
+        return False
     def find_student_by_id(self, student_id: str):
         for student in self.students:
             if student.student_id == student_id:
