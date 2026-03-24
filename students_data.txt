@@ -1,12 +1,20 @@
 [
     {
-        "student_id": "QE210097",
-        "name": "Nguyen",
+        "student_id": "QE11011",
+        "name": "Nguyen Hai Ban",
         "birth_year": 2007,
-        "major": "Ai",
+        "major": "AI",
         "scores": {
-            "Toan": 10.0,
-            "Li": 10.0
+            "Toan": 10.0
+        }
+    },
+    {
+        "student_id": "QE210021",
+        "name": "Phan Le Thanh Hung",
+        "birth_year": 2007,
+        "major": "AI",
+        "scores": {
+            "Toan": 10.0
         }
     }
 ]
